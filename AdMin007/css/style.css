@@ -1,0 +1,183 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Philosopher', sans-serif;
+  width: 100%;
+  background: #fff;
+  margin: 0px;
+  padding: 0px;
+}
+.h1 {
+  padding: 10px;
+  font-size: 21px;
+  background: #008462;
+  margin: 0;
+  color: #fff;
+}
+.h1 a {
+  display: block;
+  float: right;
+  text-decoration: none;
+  color: #fff;
+  background: #16A085;
+  font-size: 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+  padding: 5px;
+}
+.h1 a:hover {
+  background: #1ABC9C;
+}
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #16A085;
+}
+ul.menu li {
+  float: left;
+}
+ul.menu a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+ul.menu a:hover {
+  background: #1ABC9C;
+}
+ul.list {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+}
+ul.list li {
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+ul.list b {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #2980B9;
+}
+ul.list i, ul.list small {
+  color: #888;
+  font-size: 12px;
+  margin-right: 10px;
+}
+ul.list span {
+  color: #8E44AD;
+}
+ul.list div {
+  margin: 5px 0;
+  font-size: 13px;
+  line-height: 1.5em;
+  color: #555;
+  text-align: justify;
+}
+ul.list img {
+  margin-left: 20px;
+  border: 1px solid #2C3E50;
+  width: 100px;
+  height: 150px;
+}
+ul.list a {
+  text-decoration: none;
+}
+a.new {
+  display: block;
+  padding: 8px 0;
+  background: #1ABC9C;
+  text-align: center;
+  width: 160px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+a.new:hover {
+  background: #159e83;
+}
+a.back {
+  display: block;
+  padding: 8px 0;
+  background: #0085c8;
+  font-size: 10px;
+  text-align: center;
+  width: 50px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+a.back:hover {
+  background: #0076b1;
+}
+a.del {
+  float: left;
+  display: block;
+  padding: 5px 0;
+  font-size: 10px;
+  background: #cc241e;
+  text-align: center;
+  width: 50px;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+a.del:hover {
+  background: #a71d18;
+}
+a.edit {
+  float: left;
+  display: block;
+  padding: 5px 0;
+  font-size: 10px;
+  background: #0085c8;
+  text-align: center;
+  width: 50px;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+a.edit:hover {
+  background: #0076b1;
+}
+#submit {
+  padding: 8px 0;
+  background: #006c7d;
+  text-align: center;
+  width: 160px;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+form {
+  margin: 20px;
+}
+form label {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+input[type=text],input[type=password],textarea, select {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #ddd;
+  padding: 6px;
+  width: 300px;
+  background: #fff;
+}
+textarea {
+  height: 100px;
+}
+input[type=submit] {
+  padding: 10px 24px;
+  margin-right: 10px;
+}

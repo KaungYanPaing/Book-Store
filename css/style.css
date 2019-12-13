@@ -1,0 +1,278 @@
+* {
+	box-sizing: border-box;
+}
+html {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Philosopher', sans-serif;
+  width: 100%;
+  height: 100%;
+  background: #e5e5e5;
+  margin: 0px;
+  padding: 0px;
+}
+h1 {
+  padding-top: 0;
+  padding-bottom: 10px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 40px;
+  text-align: left;
+  background: #2980b9;
+  margin: 0;
+  color: #fff;
+}
+h1 img {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 70px;
+  height: 70px;
+}
+a {
+  color: #2980B9;
+  text-decoration: none;
+}
+a:hover {
+  color: #3498DB;
+}
+
+.sidebar {
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
+  background-color: #33a3e8;
+  overflow: hidden;
+}
+.sidebar ul li {
+  float: left;
+  margin-right: 60px;
+  list-style: none;
+}
+.sidebar ul li a {
+  display: block;
+  height: 40px;
+  line-height: 20px;
+  font-size: 15px;
+  color: #174b6c;
+  text-transform: uppercase;
+}
+.sidebar ul li a:hover {
+  color: #fff;
+	border-bottom: 3px solid #fff;
+}
+.sidebar ul li .del:hover {
+  color: #cc241e;
+	border-bottom: 3px solid #cc241e;
+}
+/* .sidebar {
+  width: 15%;
+  float: left;
+}
+.cats {
+  list-style: none;
+  padding: 0;
+}
+.cats li a {
+  display: block;
+  font-size: 15px;
+  padding: 8px 15px;
+}
+.cats li a:hover {
+  background: #efefef;
+} */
+
+.banner {
+	height: 400px;
+	background: url("../covers/book.jpg") no-repeat;
+	position: relative;
+}
+.header {
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	color: #fff;
+	background: none;
+	font-size: 60px;
+}
+
+.info {
+  background: #3498db;
+  padding: 8px;
+  text-align: right;
+}
+.info a {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.info a:hover {
+  color: #2980b9;
+}
+
+.main {
+  background: #e5e5e5;
+  float: right;
+  width: 100%;
+  margin-bottom: 10%;
+}
+.books {
+  list-style: none;
+  margin: 15px;
+  padding: 0;
+  overflow: hidden;
+}
+.books li {
+	box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+	background-color: #fff;
+	max-width: 150px;
+	margin: 20px 30px;
+	text-align: center;
+	float: left;
+	font-size: 15px;
+}
+
+.books b {
+  display: block;
+  margin: 5px 0;
+  font-weight: normal;
+}
+.books i {
+  color: #E74C3C;
+}
+a.add-to-cart {
+  font-size: 13px;
+  display: block;
+  background: #7f7d7b;
+  color: #fff;
+  padding: 5px 0;
+	margin-top: 10px;
+}
+
+a.add-to-cart:hover{
+	opacity: 0.7;
+}
+
+a.del {
+  color: #D35400;
+}
+.footer {
+  clear: both;
+  background: #95A5A6;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px;
+  text-align: center;
+  border-top: 1px solid #7F8C8D;
+}
+.detail {
+  height: 500px;
+  padding: 20px;
+  background: #fff;
+}
+.detail .back {
+  float: right;
+  display: block;
+  padding: 8px 8px;
+  background: #0085c8;
+  font-size: 10px;
+  text-align: center;
+  width: 50px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.detail .back:hover {
+  background: #0076b1;
+}
+.detail img {
+  width: 100px;
+  height: 150px;
+  border: 1px solid #2C3E50;
+}
+.detail h2 {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #2980B9;
+}
+.detail i {
+  color: #888;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.detail b {
+  color: #E74C3C;
+}
+.detail p {
+  margin: 5px 0;
+  font-size: 13px;
+  line-height: 1.5em;
+  color: #555;
+  text-align: justify;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #8a8a8a;
+}
+.detail a.add-to-cart {
+  margin: 0;
+  width: 160px;
+  text-align: center;
+  padding: 10px 0;
+  background: #1ABC9C;
+}
+.detail a.add-to-cart:hover{
+  background: #159e83;
+}
+table {
+  margin: 20px;
+  border-spacing: 1px;
+  background: #33a3e8;
+}
+td {
+  background: white;
+  border-collapse: collapse;
+  padding: 8px;
+}
+th {
+  color: white;
+  padding: 8px;
+}
+.order-form {
+  margin-left: 20px;
+}
+.order-form h2 {
+  margin: 40px 0 10px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  color: #C0392B;
+}
+form label {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+input[type=text],input[type=password],textarea,select {
+  font-family: 'Philosopher', sans-serif;
+  border: 1px solid #ddd;
+  padding: 6px;
+  width: 300px;
+  background: #fff;
+}
+textarea {
+  height: 100px;
+}
+input[type=submit] {
+	display: block;
+  padding: 8px 0;
+  background: #1ABC9C;
+  text-align: center;
+  width: 250px;
+  margin: 20px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+input[type=submit]:hover {
+  background: #159e83;
+}
